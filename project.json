@@ -1,0 +1,13 @@
+{
+  "name": "auto-scale-spot-fleet",
+  "description": "auto scale spot fleet",
+  "nameTemplate": "{{.Function.Name}}",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "SpotFleetRequestId": "",
+    "TopicArn": ""
+  }
+}
